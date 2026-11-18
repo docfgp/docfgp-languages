@@ -5,13 +5,7 @@
 [![CI](https://github.com/iamzices/docfgp-document-fingerprint-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/iamzices/docfgp-document-fingerprint-languages/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/iamzices/docfgp-document-fingerprint-languages)](LICENSE)
 
-DocFGP Languages provides the Tesseract models that let [DocFGP](https://github.com/iamzices/docfgp-document-fingerprint) OCR scanned documents in every script.
-
-## Features
-
-- English and every language written in a non-Latin script, from [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)
-- Models pinned to one upstream revision and verified with SHA-256
-- Discovered by DocFGP automatically
+DocFGP Languages provides the [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast) Tesseract models that let [DocFGP](https://github.com/iamzices/docfgp-document-fingerprint) OCR non-Latin scripts.
 
 ## Requirements
 
@@ -28,7 +22,7 @@ pip install "docfgp[languages]"
 ```python
 from docfgp import FingerprintConfig, Fingerprinter
 
-fingerprinter = Fingerprinter(FingerprintConfig(ocr_language="chi_sim"))
+fingerprinter = Fingerprinter(FingerprintConfig(ocr_language="eng+chi_sim"))
 fingerprint = fingerprinter.fingerprint("scan.pdf")
 ```
 
@@ -64,5 +58,3 @@ fingerprint = fingerprinter.fingerprint("scan.pdf")
 | Thaana | `div` |
 | Thai | `tha` |
 | Tibetan | `bod`, `dzo` |
-
-Models combine with `+`, such as `eng+chi_sim`.
