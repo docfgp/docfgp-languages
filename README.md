@@ -2,10 +2,10 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/docfgp-languages)](https://pypi.org/project/docfgp-languages/)
 [![PyPI downloads](https://img.shields.io/pepy/dt/docfgp-languages)](https://pepy.tech/projects/docfgp-languages)
-[![CI](https://github.com/iamzices/docfgp-document-fingerprint-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/iamzices/docfgp-document-fingerprint-languages/actions/workflows/ci.yml)
-[![License: Apache-2.0](https://img.shields.io/github/license/iamzices/docfgp-document-fingerprint-languages)](LICENSE)
+[![CI](https://github.com/docfgp/docfgp-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/docfgp/docfgp-languages/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/docfgp/docfgp-languages)](LICENSE)
 
-DocFGP Languages provides the [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast) Tesseract models that let [DocFGP](https://github.com/iamzices/docfgp-document-fingerprint) OCR non-Latin scripts.
+DocFGP Languages provides the [tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast) Tesseract models that let [DocFGP](https://github.com/docfgp/docfgp) OCR non-Latin scripts.
 
 ## Requirements
 
